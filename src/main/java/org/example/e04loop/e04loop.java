@@ -40,12 +40,14 @@ public class e04loop {
         // ...
         // 9 X 8 = 72
         // 9 X 9 = 81
-        for(int i = 1; i < 9; i++){
-            System.out.println();
-            for(int z = 1; z < 9; z++){
-                System.out.println();
+        for(int i = 1; i < 10; i++){
+            System.out.printf("**%d단**%n", i);
+            for(int z = 1; z < 10; z++){
+                int b = i * z;
+                System.out.printf("%d X %d = %d%n", i, z, b);
             }
         }
-
+        //인텔리제이는 커밋을해도 이전에 커밋했던 커밋메세지가 남아있음
+        //풀은 로컬>업데이트나 git에서 pull함
     }
 }
