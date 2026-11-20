@@ -10,6 +10,6 @@ public class MainInterface {
         Whale whale = new Whale();
         System.out.println(whale.residence());
 
-        Fish fish =
+        // Fish fish =
     }
 }
