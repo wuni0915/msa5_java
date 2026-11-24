@@ -20,11 +20,18 @@ public class Whale extends Animal {
 
 
     //선언만 해둔 상태
-    public Whale (String name, String residence){
+    // public Whale (String name, String residence){
+    //     super(name, residence);
+    // }
+    // //클래스 안에 소속된 함수를 메서드라고 한다.
+    // public String swimming(){
+    //     return String.format("%s이/가 헤엄칩니다", super.name);
+    // }
+    public Whale(String name, String residence) {
         super(name, residence);
     }
-    //클래스 안에 소속된 함수를 메서드라고 한다.
-    public String swimming(){
-        return String.format("%s이/가 헤엄칩니다", super.name);
+
+    public String swimming() {
+        return String.format("%s이/가 헤엄칩니다.", this.name);
     }
 }

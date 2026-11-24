@@ -19,7 +19,7 @@ public class MainArrayList {
 
         list1.forEach((i)->{
             System.out.println(i);
-            //왕따식문법ㅋㅋ 란다식?
+            //왕따식문법ㅋㅋ 람다식?
         });
     }
     //사이즈 - 요소의 값이 비어있지 않은 만큼의 양. 요소 넣을때마다 사이즈 증가함.
